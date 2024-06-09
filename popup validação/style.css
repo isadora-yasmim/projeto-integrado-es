@@ -1,0 +1,75 @@
+body{
+    display: contents;
+}
+
+.fundo{
+    width: 475px;
+    height: 630px;
+}
+
+h1{
+    position: absolute;
+    color: #fff;
+    font-size: 60px;
+    font-family: Bitter;
+    font-weight: 700;
+    word-wrap: break-word;
+    width: 530px;
+    height: 142px;
+    top: 8px;
+    left: -28px;
+    text-align: center;
+    line-height: 72px
+}
+
+h1 #CB{
+    color: #9BCCFA;
+    font-size: 60px;
+    font-family: Bitter;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.logo{
+    position: absolute;
+    top: 135px;
+    left: 130px;
+    right: 130.17px;
+    bottom: 280.17px;
+}
+
+.mensagem{
+    position: absolute;
+    width: 349px;
+    height: 82px;
+    top: 400px;
+    left: 63px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'League Spartan';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 29.44px;
+    text-align: center;
+    color: #fff;
+}
+
+.btn{
+    position: absolute;
+    display: block;
+    width: 261px;
+    height: 55px;
+    top: 523px;
+    left: 100px;
+    right: 107px;
+    bottom: 52px;
+    font-family: 'League Spartan';
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #0216C5;
+    border-radius: 30px;
+    padding: 4px 7px;
+    text-align: center;
+}
+
