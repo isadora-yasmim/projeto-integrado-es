@@ -417,3 +417,37 @@
     grid-gap: var(--dl-space-space-unit);
   }
 }
+
+.perf-il-text34{
+  position: relative;
+}
+
+.input{
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font: inherit;
+  color: #d4d4d4;
+  background-color: transparent;
+  outline: 2px solid #fff;
+}
+
+.input-label{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(10px, 10px);
+  transition: transform .25s;
+}
+
+.input:focus+.input-label,
+.input:valid+.input-label{
+  transform: translate(10px, -14px) scale(.8);
+  color: #000000;
+  padding-inline: 5px;
+  background-color: transparent;
+}
+
+.input:ist:focus, :valid{
+  outline-color: #d4d4d4;
+}
