@@ -63,13 +63,18 @@ h1 #CB{
     left: 100px;
     right: 107px;
     bottom: 52px;
+    background-color: #0216C5;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-left: 4px;
+    text-align: center;
+}
+
+#voltaraomenu{
     font-family: 'League Spartan';
     font-size: 22px;
     font-weight: 700;
     color: #fff;
-    background-color: #0216C5;
-    border-radius: 30px;
-    padding: 4px 7px;
-    text-align: center;
-}
+    text-decoration: none;
 
+}
